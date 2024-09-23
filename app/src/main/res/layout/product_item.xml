@@ -26,32 +26,26 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Price: "
-            android:textSize="14sp"
-            android:layout_marginTop="8dp" />
+            android:textSize="16sp" />
 
-        <!-- Button Sửa và Xóa sản phẩm -->
+        <!-- Nút Sửa và Xóa -->
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_marginTop="8dp"
             android:gravity="end">
 
-            <!-- Button Sửa -->
             <Button
                 android:id="@+id/button_edit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Edit"
-                android:layout_marginEnd="8dp" />
+                android:text="Edit" />
 
-            <!-- Button Xóa -->
             <Button
                 android:id="@+id/button_delete"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Delete" />
-
         </LinearLayout>
     </LinearLayout>
 </androidx.cardview.widget.CardView>
